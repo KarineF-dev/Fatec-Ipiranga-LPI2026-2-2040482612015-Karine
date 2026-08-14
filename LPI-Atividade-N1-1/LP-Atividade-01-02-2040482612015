@@ -4,14 +4,17 @@ public class LP-Atividade-01-02-2040482612015 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int valorPrimitivo1, valorPrimitivo2, valorObjeto1, valorObjeto2, valorCache, valorForaCache;
+
+        int valorPrimitivo1, valorPrimitivo2, valorObjeto1, valorObjeto2, valorCache, valorForaCache; //variaveis
 
         System.out.print("Valor para comparação de primitivos: "); 
-       //variaveis
+      
+
         valorPrimitivo1 = scanner.nextInt();
         valorPrimitivo2 = valorPrimitivo1;
 
-        System.out.print("Valor para a comparação de objetos (new Integer): "); //comparar objetos
+
+        System.out.print("Valor para a comparação de objetos (new Integer): ");
         valorObjeto1 = scanner.nextInt();
         Integer aObjeto = new Integer(valorObjeto1);
         Integer bObjeto = new Integer(valorObjeto1);
