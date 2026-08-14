@@ -1,10 +1,11 @@
 import java.util.Scanner;
 public class LPAlunoDados; {
     public static void main (String args[]){
-       
+       //LPI-Atividade-N1-1-01-2040482612015
+
     	//fonte https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
-    	//https://www.w3schools.com/java/
-  //variaveis  	
+     //https://www.w3schools.com/java/
+       //variaveis  	
 	byte idade; //8 bits
 	short faltas; //16 bits
 	int matriculaId;  //32 bits
