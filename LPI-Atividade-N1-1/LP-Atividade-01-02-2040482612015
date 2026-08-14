@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class LP-Atividade-01-02-2040482612015 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int valorPrimitivo1, valorPrimitivo2, valorObjeto1, valorObjeto2, valorCache, valorForaCache;
+
+        System.out.print("Valor para comparação de primitivos: "); 
+       //variaveis
+        valorPrimitivo1 = scanner.nextInt();
+        valorPrimitivo2 = valorPrimitivo1;
+
+        System.out.print("Valor para a comparação de objetos (new Integer): "); //comparar objetos
+        valorObjeto1 = scanner.nextInt();
+        Integer aObjeto = new Integer(valorObjeto1);
+        Integer bObjeto = new Integer(valorObjeto1);
+
+        System.out.print("Valor dentro do Integer Cache (-128 a 127): ");
+        valorCache = scanner.nextInt();
+
+        Integer xCache = valorCache;
+        Integer yCache = valorCache;
+
+        System.out.print("Valor fora do Integer Cache: ");
+        valorForaCache = scanner.nextInt();
+        Integer xForaCache = valorForaCache;
+        Integer yForaCache = valorForaCache;
+
+        System.out.println("--- Comparação de Primitivos (int) ---");
+        System.out.println("aPrimitivo == bPrimitivo: " + (valorPrimitivo2 == valorPrimitivo1));
+        
+        System.out.println("--- Comparação de Objetos via 'new Integer()' ---");
+        System.out.println("aObjeto == bObjeto: " + (aObjeto == bObjeto));
+        System.out.println("aObjeto.equals(bObjeto): " + (aObjeto.equals(bObjeto)));
+
+        System.out.println("--- Comparação com Autoboxing e Integer Cache ---");
+        System.out.println("Dentro do Cache" + " (" + valorCache + ") " + "-> xCache == yCache: " + (xCache == yCache));
+        System.out.println("Fora do Cache"  + " (" + valorForaCache + ") " + "-> xForaCache == yForaCache: " + (xForaCache == yForaCache));
+        System.out.println("Fora do Cache"  + " (" + valorForaCache + ") " + "-> xForaCache.equals(yForaCache): " + (xForaCache.equals(yForaCache)));
+    }
+}
