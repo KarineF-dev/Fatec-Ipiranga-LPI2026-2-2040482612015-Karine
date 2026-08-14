@@ -41,5 +41,7 @@ public class LP-Atividade-01-02-2040482612015 {
         System.out.println("Dentro do Cache" + " (" + valorCache + ") " + "-> xCache == yCache: " + (xCache == yCache));
         System.out.println("Fora do Cache"  + " (" + valorForaCache + ") " + "-> xForaCache == yForaCache: " + (xForaCache == yForaCache));
         System.out.println("Fora do Cache"  + " (" + valorForaCache + ") " + "-> xForaCache.equals(yForaCache): " + (xForaCache.equals(yForaCache)));
+        
+        scanner.close();
     }
 }
