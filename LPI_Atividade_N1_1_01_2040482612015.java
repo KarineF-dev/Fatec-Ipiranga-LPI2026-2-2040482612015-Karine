@@ -1,7 +1,9 @@
+//LPI-Atividade-N1-1-01-2040482612015
+
 import java.util.Scanner;
-public class LPAlunoDados; {
+public class LPI_Atividade_N1_1_01_2040482612015.java; {
     public static void main (String args[]){
-       //LPI-Atividade-N1-1-01-2040482612015 
+        
 		//o nome solicitado como nome de arquivo e nome de public class está apenas como comentário pois é impossivel que o codigo rode sem respeitar a regra de sintaxe do java
 
     	//fonte https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
