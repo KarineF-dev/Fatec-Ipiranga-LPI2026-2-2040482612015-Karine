@@ -1,5 +1,4 @@
-public class LP_Atividade_N1_1_02_2040482612015 {
-    import java.util.Scanner;
+ import java.util.Scanner;
 
 public class LP_Atividade_N1_1_02_2040482612015 {
 
@@ -47,4 +46,4 @@ public class LP_Atividade_N1_1_02_2040482612015 {
     }
 }
 
-}
+
