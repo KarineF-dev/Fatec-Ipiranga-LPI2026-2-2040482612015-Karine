@@ -1,6 +1,5 @@
-
-
 import java.util.Scanner;
+
 
 public class LP_Atividade_N2_02_2040482612015 {
 	public static void main(String[] args) {
@@ -10,6 +9,7 @@ public class LP_Atividade_N2_02_2040482612015 {
 		double vendidoTotal = 0;
 		int qtdVendas = 0;
 		double mediaVenda;
+		
 		System.out.print("Valor da venda (ou 0 para encerrar): ");
 		valorVenda = scanner.nextDouble();
 
