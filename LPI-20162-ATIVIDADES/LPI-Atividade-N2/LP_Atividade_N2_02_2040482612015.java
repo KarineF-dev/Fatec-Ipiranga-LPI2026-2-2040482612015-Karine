@@ -15,7 +15,7 @@ public class LP_Atividade_N2_02_2040482612015 {
 
 
         // Ao contrario do for, onde temos o numero de repetições definido, utilizamos o while quando nao temos um numero definido de repetições
-        //Neste caso, a repetição ocorrerá enquanto o usuario não digitar 0>como na linha "valorVenda != ", quando o usuario digitar 0, o programa encerrará imediatamente 
+        //Neste caso, a repetição ocorrerá enquanto o usuario não digitar 0 ------> como na linha "valorVenda != 0 ", quando o usuario digitar 0, o programa encerrará imediatamente 
 
 		while (valorVenda != 0) {
 			vendidoTotal+= valorVenda;
