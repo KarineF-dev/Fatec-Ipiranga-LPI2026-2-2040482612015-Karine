@@ -1,14 +1,14 @@
-import java.util.Scanner;
+ import java.util.Scanner;
 
-public class LP-Atividade-01-02-2040482612015 {
+public class LP_Atividade_N1_1_02_2040482612015 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         int valorPrimitivo1, valorPrimitivo2, valorObjeto1, valorObjeto2, valorCache, valorForaCache; //variaveis
 
-        System.out.print("Valor para comparação de primitivos: "); 
-      
+        System.out.print("Valor para comparação de primitivos: ");
+
 
         valorPrimitivo1 = scanner.nextInt();
         valorPrimitivo2 = valorPrimitivo1;
@@ -32,7 +32,7 @@ public class LP-Atividade-01-02-2040482612015 {
 
         System.out.println("--- Comparação de Primitivos (int) ---");
         System.out.println("aPrimitivo == bPrimitivo: " + (valorPrimitivo2 == valorPrimitivo1));
-        
+
         System.out.println("--- Comparação de Objetos via 'new Integer()' ---");
         System.out.println("aObjeto == bObjeto: " + (aObjeto == bObjeto));
         System.out.println("aObjeto.equals(bObjeto): " + (aObjeto.equals(bObjeto)));
@@ -41,7 +41,9 @@ public class LP-Atividade-01-02-2040482612015 {
         System.out.println("Dentro do Cache" + " (" + valorCache + ") " + "-> xCache == yCache: " + (xCache == yCache));
         System.out.println("Fora do Cache"  + " (" + valorForaCache + ") " + "-> xForaCache == yForaCache: " + (xForaCache == yForaCache));
         System.out.println("Fora do Cache"  + " (" + valorForaCache + ") " + "-> xForaCache.equals(yForaCache): " + (xForaCache.equals(yForaCache)));
-        
+
         scanner.close();
     }
 }
+
+
